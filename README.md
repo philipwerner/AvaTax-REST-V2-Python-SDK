@@ -28,13 +28,13 @@ $ cd AvaTax-REST-V2-Python-SDK
 ```
 Begin a new virtual environment with Python 3 and activate it.
 ```
-Python_Final $ python3 -m venv ENV
-Python_Final $ source ENV/bin/activate
+AvaTax-REST-V2-Python-SDK $ python3 -m venv ENV
+AvaTax-REST-V2-Python-SDK $ source ENV/bin/activate
 ```
 [pip](https://pip.pypa.io/en/stable) install this package as well as the testing set of extras into your virtual enviroment.
 ```
-(ENV) Python_Final $ pip install -e .
-(ENV) Python_Final $ pip install -e .[testing]
+(ENV) AvaTax-REST-V2-Python-SDK $ pip install -e .
+(ENV) AvaTax-REST-V2-Python-SDK $ pip install -e .[testing]
 ```
 
 ## **Usage:**
@@ -57,7 +57,7 @@ If you have a Sandbox account, you cannot use that account to log onto Productio
 ### **Setup Test Credentials**
 
 For testing, your credentials are accessed as environment varibales through os.environ.
-Add the following to the ```activate``` file in your environment:
+Add the following to the ```AvaTax-REST-V2-Python-SDK/ENV/bin/activate``` file in your environment:
 
 ```
   bash

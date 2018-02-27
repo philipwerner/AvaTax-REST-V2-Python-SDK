@@ -57,7 +57,7 @@ If you have a Sandbox account, you cannot use that account to log onto Productio
 ### **Setup Test Credentials**
 
 For testing, your credentials are accessed as environment varibales through os.environ.
-Add the following to the ```activate``` file in your environment:
+Add the following to the ```AvaTax-REST-V2-Python-SDK/ENV/bin/activate``` file in your environment:
 
 ```
   bash
